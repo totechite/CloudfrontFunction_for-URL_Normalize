@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . /app/
 
-RUN npm install -y
+RUN npm install
 
 ENTRYPOINT [ "sh", "entrypoint.sh" ]

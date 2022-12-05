@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm init -y
+npm run build
