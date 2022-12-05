@@ -1,0 +1,21 @@
+{
+    "name": "work",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build-dev": "parcel ./src/main.ts --target node --out-dir ./build & parcel ./tests/src/test.ts --target node --out-dir ./tests/build; ",
+        "build": "parcel build ./src/main.ts --target node --out-dir ./build && parcel build ./tests/src/test.ts --target node --out-dir ./tests/build; ",
+        "watch": "parcel watch ./src/main.ts --target node --out-dir ./build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "4.9.3",
+        "ts-node": "10.9.1",
+        "parcel-bundler": "1.12.5",
+        "@types/node": "18.11.10"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
